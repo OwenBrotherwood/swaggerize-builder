@@ -22,7 +22,7 @@ var builder = require('swaggerize-builder');
 var routes = builder({
     api: require('./api.json'),
     handlers: './handlers'
-}));
+});
 ```
 
 Options:
